@@ -11,7 +11,6 @@
  * {
     box-sizing: border-box;
     margin:0;
-    padding: 0% 0.2% 0% 0.2%;
     font-family: 'Roboto', sans-serif;
   }
   
@@ -20,6 +19,7 @@
     margin: 0px;
     background-color: #ffffff;
     color: #253937;
+    padding: 0% 0.2% 0% 0.2%;
     }
   
   h1 {
@@ -249,7 +249,21 @@
     background-color: #000000;
     width: 373px;
   }
+
+  .footer-desktop {
+      background-color: #EFEEE7;
+      width: 100vw;
+      padding: 50px 120px;
+  }
+
+.footer-logo{
+    display: flex;
+}
   
+/* project-page */
+.wp-block-media-text__media {
+    background-color: #EFEEE7;
+}
   @media screen and (max-width: 700px) {
   
   /* navbar */
@@ -446,4 +460,7 @@
       /* partners end */
       /* front-page end */
   
+    }
+    input{
+        border: 1px black solid;
     }  

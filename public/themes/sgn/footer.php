@@ -7,12 +7,8 @@
  */
 ?>
      </div>
-     <!-- /.row -->
   </div>
-  <!-- /.container -->
-
-  <!-- Footer -->
-  <footer>
+  <!-- <footer>
     <div class="footer-container">
       <div class="footer-logo">
 
@@ -41,13 +37,8 @@
           <li>info@supportgroup.se</li>
         </ul>
       </div>
-      <!-- <div class="row">
-          <div class="col-lg-8 col-md-10 mx-auto">
-          </div>
-      </div>/.row -->
-    </div><!-- /.container -->
-  </footer><!-- /footer -->
-
+    </div>
+  </footer> -->
 <?php wp_footer(); ?>
 
 </body>
