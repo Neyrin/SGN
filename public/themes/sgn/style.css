@@ -1,0 +1,449 @@
+/**
+ * Theme Name: wu18
+ * Theme URI:
+ * Description: The WordPress theme for wu18
+ * Version: 1.0.0
+ * Author: Ida Hallner
+ * Author URI:
+ */
+
+
+ * {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0% 0.2% 0% 0.2%;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  body {
+    width: 100%;
+    margin: 0px;
+    background-color: #ffffff;
+    color: #253937;
+    }
+  
+  h1 {
+    display: none;
+  }
+  
+  .container {
+    margin-top: 70px;
+    }
+  
+  .sub-menu{
+    display: none;
+  }
+  
+  .sub-menu__open{
+    display: block;
+  }
+  
+  /* navbar */
+  .navbar {
+    /* overflow: hidden; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #ffffff;
+    padding-right: 3%;
+    display: flex;
+    color: #253937;
+    z-index: 99;
+  }
+  
+  .menu {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    z-index: 1;
+  }
+  
+  .li-item {
+    margin-left: 2%;
+  }
+  
+  .li-link {
+    color:   #253937;
+    text-decoration: none;
+  }
+  
+  .active {
+    font-weight: bold;
+  }
+  
+  .menu-lang-container {
+    display: inline-block;
+    margin-left: 20px;
+    padding-left: 40px;
+    position: relative;
+  }
+  
+  #menu-lang a {
+    color: #253937;
+    text-decoration: none;
+  }
+  
+  .sub-menu {
+    position: absolute;
+    list-style: none;
+  }
+  
+  .logo-desktop {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px
+  }
+  
+  .nav-top {
+    display: none;
+  }
+  
+  .navbar-toggle {
+    display: none;
+  }
+  
+  /* end navbar */
+  
+  /* hero */
+  .entry-content .alignwide {
+    margin-left  : -80px;
+    margin-right : -80px;
+   }
+  
+  .entry-content .alignfull {
+    margin-left  : calc( -100vw / 2 + 100% / 2 );
+    margin-right : calc( -100vw / 2 + 100% / 2 );
+    max-width    : 100vw;
+   }
+  
+  .alignfull img {
+     width: 100vw;
+   }
+  
+  /* front-page */
+  .title-front-page {
+   padding-left: 0%;
+   color: #253937;
+   font-size: 40px;
+   text-transform: uppercase;
+  }
+  
+  .title-front-page .special-color {
+    color: #F6B5B1;
+  }
+  
+  .hr-front-page {
+    padding-left: 0%;
+    background-color: #253937;
+    border: none;
+    height: 3px;
+    width: 42%;
+  }
+  
+  .title-front-page-mobile {
+   display: none;
+  }
+  
+  .special-color-mobile {
+    display: none;
+  }
+  
+  .hero-top {
+    width: 40%;
+    padding-bottom: 3%;
+    padding-top: 4%;
+    padding-left: 0%;
+  }
+  
+  .wp-block-cover-image.has-background-dim::before,
+  .wp-block-cover.has-background-dim::before {
+    z-index: 0;
+  }
+  
+  .wp-block-media-text {
+    background-color:#F6B5B1;
+    margin-bottom: 2%;
+  }
+  .wp-image-300 {
+    height: 320px;
+  }
+  
+  #h2_block {
+    margin-top: 48px;
+  }
+  
+  .text_block {
+    width: 95%;
+    margin-top: 40px;
+    margin-bottom: 54px;
+  }
+  
+  .wp-block-separator {
+    background-color: #253937;
+    border: none;
+    height: 3px;
+    width: 50%;
+    margin: 1% 0 2% 0;
+  }
+  
+  .logo-our-mission {
+   margin: 0 0 5% 25%;
+  }
+  
+  .column-front-page {
+    text-align: left;
+    margin-bottom: 2%;
+    padding: 2% 2% 0 2%;
+    background-color: #FDEBE0;
+  }
+  
+  /* facebook */
+  
+  .iframe-facebook-mobile {
+    display: none;
+  }
+  
+  .column-text-facebook {
+    padding: 5%;
+  }
+  
+  .column-facebook {
+    background-color: #F6B5B1;
+    margin-bottom: 2%;
+    padding: 0;
+    height: 410px;
+  }
+  
+  .iframe-facebook {
+    padding-left: 7%;
+    margin-top: auto;
+  }
+  /* facebook end */
+  
+  .our-misson-hr {
+    background-color: #253937;
+    border: none;
+    height: 3px;
+    width: 30%;
+    margin: 1% 0 0 0;
+  }
+  
+  /* partners */
+  .gallery-front-page {
+    background-color: #FDEBE0;
+  }
+  
+  .title-columns-frontpage {
+    background-color: #FDEBE0;
+    margin-bottom: 0px;
+    padding: 4% 0 0 4%;
+  }
+  
+  
+  /*button*/
+  .wp-block-button__link {
+    background-color: #000000;
+    width: 373px;
+  }
+  
+  @media screen and (max-width: 700px) {
+  
+  /* navbar */
+    .menu {
+      display: none;
+    }
+  
+  .navbar {
+    position: relative;
+    top: auto;
+    width: 100%;
+    height: 70px;
+    background-color: #ffffff;
+    padding: 0;
+    display: flex;
+    color: #253937;
+    z-index: 1;
+  }
+  
+  .navbar-toggle {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #000000;
+    font-size: 24px;
+    z-index: 2;
+  }
+  
+  .nav-top {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    top: 0;
+    background-color: #FFFFFF;
+    z-index: 99;
+  }
+  
+  .logo-mobile {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px
+  }
+  
+  .logo-desktop {
+    display: none;
+  }
+  
+  .mobile_view {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color:#EFEEE7;
+    padding: 0;
+    margin-top: 2%;
+    z-index: 1;
+    position: fixed;
+  }
+  
+    .mobile_view .li-link {
+      display: block;
+      margin-top: 20%;
+    }
+  
+    .menu-lang-container {
+      margin-left: 0px;
+      padding-left: 0px;
+      display: block;
+      list-style: none;
+      margin-top: 40px;
+      }
+  
+      #menu-lang {
+        display: block;
+        list-style: none;
+      }
+  
+    /* navbar end */
+  
+        /* front-page */
+        .title-front-page {
+          display: none;
+        }
+  
+        .title-front-page-mobile {
+          display: block;
+          color: #253937;
+          font-size: 32px;
+          text-transform: uppercase;
+          padding-left: 2%;
+        }
+  
+        .special-color-mobile {
+          display: block;
+          font-size: 32px;
+          text-transform: uppercase;
+          color: #F6B5B1;
+          padding-left: 2%;
+        }
+  
+        .hr-front-page {
+         margin-left: 2%;
+          background-color: #253937;
+          border: none;
+          height: 3px;
+          width: 70%;
+        }
+  
+      .hero-top {
+        width: 90%;
+        padding: 5% 0 5% 2%;
+      }
+  
+      .wp-block-media-text {
+        padding-top: 5%;
+      }
+  
+  
+      #h2_block {
+        margin-top: 20px;
+        padding-top: 0%;
+      }
+  
+      .text_block {
+        padding-bottom: 10%;
+        margin: 40px 0 40px 0;
+      }
+  
+      .wp-block-separator {
+        background-color: #253937;
+        border: none;
+        height: 3px;
+        width: 70%;
+        margin: 1% 0 2% 0;
+      }
+  
+      .title-columns-frontpage {
+        background-color: #FDEBE0;
+        margin-bottom: 0px;
+        margin-top: 20px;
+        padding: 4% 0 0 4%;
+      }
+  
+      .our-misson-hr {
+        background-color: #253937;
+        border: none;
+        height: 3px;
+        width: 70%;
+        margin: 1% 0 0 0;
+      }
+  
+      .logo-our-mission {
+       margin: 0;
+      }
+  
+      .column-front-page {
+        text-align: left;
+        margin-bottom: 2%;
+        padding: 2% 7% 0 2%;
+        background-color: #FDEBE0;
+      }
+      /* facebook */
+  
+      .iframe-facebook-mobile {
+        display: block;
+        background-color: #F6B5B1;
+      }
+  
+      .column-text-facebook-mobile {
+        padding-left: 2%;
+      }
+  
+      .column-text-facebook {
+        display: none;
+      }
+  
+      .column-facebook {
+        display: none;
+      }
+  
+      .iframe-facebook {
+      display: none;
+      }
+      /* facebook end */
+      /* partners */
+      .gallery-front-page {
+      display: none;
+      }
+      /* partners end */
+      /* front-page end */
+  
+    }  
