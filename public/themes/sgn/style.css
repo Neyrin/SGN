@@ -242,6 +242,10 @@
     margin-bottom: 0px;
     padding: 4% 0 0 4%;
   }
+
+  .partners-mobile {
+      display: none;
+  }
   
   
   /*button*/
@@ -264,6 +268,40 @@
 .wp-block-media-text__media {
     background-color: #EFEEE7;
 }
+.branch-button-col{
+    display:flex;
+    flex-direction: column;
+}
+.branch-button{
+    background-color: #000000;
+    width:257px;
+    line-height:56px;
+    border-radius: 5px;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    margin: 20px 0;
+}
+.branch-activities-block{
+    padding: 49px 118px;
+}
+.branches-block{
+    padding:49px 96px;
+}
+.contact-block{    
+    padding:49px 96px;
+}
+.act-container, .branch-intro, .branch-container{
+    margin: 56px 24px 16px 24px;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+
   @media screen and (max-width: 700px) {
   
   /* navbar */
@@ -348,117 +386,125 @@
   
     /* navbar end */
   
-        /* front-page */
-        .title-front-page {
-          display: none;
-        }
-  
-        .title-front-page-mobile {
-          display: block;
-          color: #253937;
-          font-size: 32px;
-          text-transform: uppercase;
-          padding-left: 2%;
-        }
-  
-        .special-color-mobile {
-          display: block;
-          font-size: 32px;
-          text-transform: uppercase;
-          color: #F6B5B1;
-          padding-left: 2%;
-        }
-  
-        .hr-front-page {
-         margin-left: 2%;
-          background-color: #253937;
-          border: none;
-          height: 3px;
-          width: 70%;
-        }
-  
-      .hero-top {
-        width: 90%;
-        padding: 5% 0 5% 2%;
-      }
-  
-      .wp-block-media-text {
-        padding-top: 5%;
-      }
-  
-  
-      #h2_block {
-        margin-top: 20px;
-        padding-top: 0%;
-      }
-  
-      .text_block {
-        padding-bottom: 10%;
-        margin: 40px 0 40px 0;
-      }
-  
-      .wp-block-separator {
-        background-color: #253937;
-        border: none;
-        height: 3px;
-        width: 70%;
-        margin: 1% 0 2% 0;
-      }
-  
-      .title-columns-frontpage {
-        background-color: #FDEBE0;
-        margin-bottom: 0px;
-        margin-top: 20px;
-        padding: 4% 0 0 4%;
-      }
-  
-      .our-misson-hr {
-        background-color: #253937;
-        border: none;
-        height: 3px;
-        width: 70%;
-        margin: 1% 0 0 0;
-      }
-  
-      .logo-our-mission {
-       margin: 0;
-      }
-  
-      .column-front-page {
-        text-align: left;
-        margin-bottom: 2%;
-        padding: 2% 7% 0 2%;
-        background-color: #FDEBE0;
-      }
-      /* facebook */
-  
-      .iframe-facebook-mobile {
+    /* front-page */
+    .title-front-page {
+        display: none;
+    }
+
+    .title-front-page-mobile {
         display: block;
-        background-color: #F6B5B1;
-      }
-  
-      .column-text-facebook-mobile {
+        color: #253937;
+        font-size: 32px;
+        text-transform: uppercase;
         padding-left: 2%;
-      }
-  
-      .column-text-facebook {
+    }
+
+    .special-color-mobile {
+        display: block;
+        font-size: 32px;
+        text-transform: uppercase;
+        color: #F6B5B1;
+        padding-left: 2%;
+    }
+
+    .hr-front-page {
+        margin-left: 2%;
+        background-color: #253937;
+        border: none;
+        height: 3px;
+        width: 70%;
+    }
+
+    .hero-top {
+    width: 90%;
+    padding: 5% 0 5% 2%;
+    }
+
+    /* .wp-block-media-text {
+    padding-top: 5%;
+    } */
+
+
+    #h2_block {
+    margin-top: 20px;
+    padding-top: 0%;
+    }
+
+    .text_block {
+    padding-bottom: 10%;
+    margin: 40px 0 40px 0;
+    }
+
+    .wp-block-separator {
+    background-color: #253937;
+    border: none;
+    height: 3px;
+    width: 70%;
+    margin: 1% 0 2% 0;
+    }
+
+    .title-columns-frontpage {
+    background-color: #FDEBE0;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    padding: 4% 0 0 4%;
+    }
+
+    .our-misson-hr {
+    background-color: #253937;
+    border: none;
+    height: 3px;
+    width: 70%;
+    margin: 1% 0 0 0;
+    }
+
+    .logo-our-mission {
+    margin: 0;
+    }
+
+    .column-front-page {
+    text-align: left;
+    margin-bottom: 2%;
+    padding: 2% 7% 0 2%;
+    background-color: #FDEBE0;
+    }
+    /* facebook */
+
+    .iframe-facebook-mobile {
+    display: block;
+    background-color: #F6B5B1;
+    }
+
+    .column-text-facebook-mobile {
+    padding-left: 2%;
+    }
+
+    .column-text-facebook {
+    display: none;
+    }
+
+    .column-facebook {
+    display: none;
+    }
+
+    .iframe-facebook {
+    display: none;
+    }
+    /* facebook end */
+    /* partners */
+    .gallery-front-page {
+    display: none;
+    }
+
+    .partners-desktop {
         display: none;
-      }
-  
-      .column-facebook {
-        display: none;
-      }
-  
-      .iframe-facebook {
-      display: none;
-      }
-      /* facebook end */
-      /* partners */
-      .gallery-front-page {
-      display: none;
-      }
-      /* partners end */
-      /* front-page end */
+    }
+
+    .partners-mobile {
+        display: block;
+    }
+    /* partners end */
+    /* front-page end */
   
     }
     input{
