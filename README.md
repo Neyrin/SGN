@@ -2,14 +2,15 @@
 The purpose of the project was to rebuild the website for the organization Support group Network. 
 
 ## The project
-A school project by Yrgo students of Web Development and Digital Designer. The website is built in WordPress using [WordPlate](https://wordplate.github.io/). 
+A school project by Yrgo students of Web Development(WU) and Digital Designer(DD). The website is built in WordPress using [WordPlate](https://wordplate.github.io/). 
 The project has to meet following requirements:
 -	The website must be translatable the minimum requirement are between English and Swedish.
 -	The website must be accessibility proof such as contrast, languages, visibility, screen reader.
 -	The website must be built in WordPress with a CMS for the customer to work with for updates.
 -	Links to different pages with project with own identity and links to groups on Facebook.
 -	News with feed from Facebook.
-#Built With
+
+# Built With
 -	WordPress
 -	Php
 
@@ -19,8 +20,10 @@ The project has to meet following requirements:
 * [Mathias Kristiansson](https://github.com/mrmakr) (WU)
 * Fanny Wickius (DD)
 * Isak Martinson (DD)
+
+
 # Reflections
-The website is translatable between English and Swedish by using the polylang plugin, the customer can add more language by adding another language in the menu-page and then copying the existing page and replacing the content with the new translation.
+The website is translatable between English and Swedish by using the polylang plugin, the customer can add additional languages by setting up another language in the menu-page and then copying the existing wordpress-page and replacing the content with the new translation.
 
 The website is built with the block editor using Gutenberg blocks. The pros of this method is that the costumer has total freedom to change texts, color, components and blocks as he or she would like. The con side of this being that the site is easily broken. To add more content or change something on the website the customer can use designed reusable blocks like footer and media-textblock. 
 During the project we reflected over the choice to use only Gutenberg block to build the website. Having a unconfined site can be a strength if the customer has very good knowledge of WordPress but is very weak if your costumer only want to be able to add content and not have access to the design. 
