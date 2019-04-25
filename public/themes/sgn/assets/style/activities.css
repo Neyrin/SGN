@@ -1,0 +1,17 @@
+/**
+ * Theme Name: SGN
+ * Theme URI:
+ * Description: The WordPress theme for wu18
+ * Version: 1.0.0
+ * Author: Ida Hallner,Isa Areschoug, Mathias Kristiansson
+ * Author URI:
+ */
+
+ .logo-activities{
+    margin: 6% 0 10% 0;
+}
+
+.map-responsive{
+    overflow:hidden;
+    position:relative;
+}

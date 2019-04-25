@@ -1,0 +1,166 @@
+/**
+ * Theme Name: SGN
+ * Theme URI:
+ * Description: The WordPress theme for wu18
+ * Version: 1.0.0
+ * Author: Ida Hallner,Isa Areschoug, Mathias Kristiansson
+ * Author URI:
+ */
+
+.navbar {
+/* overflow: hidden; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #ffffff;
+    padding-right: 3%;
+    display: flex;
+    color: #253937;
+    z-index: 99;
+}
+
+.menu {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    z-index: 1;
+}
+
+.li-item {
+    margin-left: 2%;
+}
+
+.li-link {
+    color:   #253937;
+    text-decoration: none;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.menu-lang-container {
+    display: inline-block;
+    margin-left: 20px;
+    padding-left: 40px;
+    position: relative;
+}
+
+#menu-lang a {
+    color: #253937;
+    text-decoration: none;
+}
+#menu-lang{
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.sub-menu {
+    position: absolute;
+    list-style: none;
+}
+.sub-menu__open{
+    padding-left: 0px;
+    display: block;
+}
+.logo-desktop {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 101px;
+}
+
+.nav-top {
+    display: none;
+}
+
+.navbar-toggle {
+    display: none;
+}
+
+@media screen and (max-width: 700px) {
+    .menu {
+        display: none;
+    }
+    
+    .navbar {
+        position: relative;
+        top: auto;
+        width: 100%;
+        height: 70px;
+        background-color: #ffffff;
+        padding: 0;
+        display: flex;
+        color: #253937;
+        z-index: 1;
+    }
+    
+    .navbar-toggle {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+        color: #000000;
+        font-size: 24px;
+        z-index: 2;
+    }
+    
+    .nav-top {
+        display: flex;
+        position: fixed;
+        width: 100%;
+        height: 70px;
+        top: 0;
+        background-color: #FFFFFF;
+        z-index: 99;
+    }
+    
+    .logo-mobile {
+        display: inline-block;
+        margin-left: 20px;
+        margin-top: 10px;
+        width: 101px;
+    }
+    
+    .logo-desktop {
+        display: none;
+    }
+    
+    .mobile_view {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+        background-color:#EFEEE7;
+        padding: 0;
+        margin-top: 2%;
+        z-index: 1;
+        position: fixed;
+    }
+    
+    .mobile_view .li-link {
+        display: block;
+        margin-top: 20%;
+    }
+
+    .menu-lang-container {
+        margin-left: 0px;
+        padding-left: 0px;
+        display: block;
+        list-style: none;
+        margin-top: 40px;
+    }
+
+    #menu-lang {
+        display: block;
+        list-style: none;
+        /* margin-left: 40px; */
+    }
+}

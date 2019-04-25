@@ -1,0 +1,153 @@
+/**
+ * Theme Name: SGN
+ * Theme URI:
+ * Description: The WordPress theme for wu18
+ * Version: 1.0.0
+ * Author: Ida Hallner,Isa Areschoug, Mathias Kristiansson
+ * Author URI:
+ */
+
+input{
+    display:flex;
+    flex-direction: column;
+    width: 608px;
+}
+input[type=checkbox] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  
+input[type=checkbox]::-ms-check {
+    display: none;
+}
+
+input[type=checkbox] {
+    position: relative;
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    display: block;
+    border: 3px solid #000;
+    color: black;
+    }
+  
+input.agree-checkbox[type=checkbox] {
+    position: relative;
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border: 3px solid #000;
+    color: black;
+    margin: 0;
+    }
+
+input[type=checkbox]::before {
+    content: "✕";
+    position: absolute;
+    font-size: 10px;
+    left: 3px;
+    text-align: center;
+    visibility: hidden;
+    }
+
+input[type=checkbox]:checked::before {
+    visibility: visible;
+}
+input[type=text] {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    border: none;
+    background: none;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    line-height: 13.5px;
+  }
+input.custom-sum[type=text]{
+    width: 303px;
+}
+input[type=text-area]{
+    margin-bottom: 24px;
+    margin-top: 40px;
+    background: none;
+    border: 2px solid black;
+    width: 608px;
+    height: 124px;
+}
+input[type=submit]{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 225px;
+    line-height: 56px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+.donation-block{
+    padding-bottom: 19%;
+}
+.donationbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px 20px 20px;
+}
+.donation-amount{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 33%;
+    margin: 20px 0;
+}
+.volunteer-btn{
+    margin-bottom: 156px;
+}
+.donate-btn{
+    margin-bottom: 57px;
+}
+.volunteer-info-block{
+    padding: 56px 0 123px 98px;
+}
+.volunteer-info{
+    width: 76%;
+}
+.volunteer-info-header{
+    width: 70%;
+}
+.contact-info-block{
+    height: 454px;
+    padding-left: 96px;
+    padding-top: 48px;
+}
+.participate-container{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.participate-intro{
+    width: 37%;
+    margin: 149px 0 61px 20px;
+    
+}
+.swish-logo{
+    margin: 0;
+}
+.swish-number{
+    margin: 20px 0 0 5px;
+}
+.contact-container{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.contact-intro{
+    margin-left: 20px;
+    width: 35%;
+    height: 89px;
+    padding-top: 3%;
+}
+
+@media screen and (max-width: 700px) {
+    
+}

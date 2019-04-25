@@ -1,0 +1,22 @@
+.branch-button-col{
+    display:flex;
+    flex-direction: column;
+}
+.branch-activities-block{
+    padding: 49px 118px;
+}
+.branches-block{
+    padding:49px 96px;
+}
+.contact-block{    
+    padding:49px 96px;
+}
+.act-container, .branch-container {
+    margin: 56px 20px 16px 20px;
+}
+.branch-intro{
+    margin-left: 20px;
+    height: 79px;
+    width: 69%;
+    padding-top: 3%;
+}
