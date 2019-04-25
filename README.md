@@ -1,4 +1,4 @@
-###Support Group Network
+### Support Group Network
 The purpose of the project was to rebuild the website for the organization Support group Network. 
 
 ## The project
